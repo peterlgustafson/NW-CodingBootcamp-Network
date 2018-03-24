@@ -176,8 +176,8 @@ app.get("/newjob", function(req, res) {
   app.post('/createevent', function(req, res){
     var newEvent = req.body;
     // console.log(newMember);
-    var query = "INSERT INTO events (poster_email, event_name, location, posted_by, date, details) VALUES (?, ?, ?, ?, ?, ?)"
-      connection.query(query, [req.body.poster_email, req.body.event_name, req.body.location, req.body.posted_by, req.body.date, req.body.details], function(err, response){
+    var query = "INSERT INTO events (poster_email, event_name, event_location, posted_by, event_date, details) VALUES (?, ?, ?, ?, ?, ?)"
+      connection.query(query, [req.body.poster_email, req.body.event_name, req.body.event_location, req.body.posted_by, req.body.event_date, req.body.details], function(err, response){
           if (err) throw err;
       });
     });
