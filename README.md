@@ -2,7 +2,7 @@
 
 Northwestern University Student-Alumni Database (Project Two)
 
-Link to Site: https://ThespianNemo.github.io/NU-Bootcamp-Project-2/
+Link to Site: https://nwcodingbootcampnetwork.herokuapp.com/
 
 About: Northwestern Coding Bootcamp Network is a platform for past and present Northwestern Coding Bootcamp students and alumni to connect, share events and discover new job opportunities. 
 
